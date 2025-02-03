@@ -4,7 +4,7 @@ app=Flask(__name__)
 Jobs=[{
     'id':1,
     'title':'Data Analyst',
-    'location':'Bangalore',
+    'location':'Chennai',
     'salary':'Rs 100000'
        },
        {
