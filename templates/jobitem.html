@@ -1,0 +1,10 @@
+<div style=" margin-bottom: 10px;"class="border border-success p-3 mb-2 row">
+    <div class="col-9">
+    <h4 style="color:rgb(179, 109, 24)"> {{val['title']}}</h4>
+    <div style="padding-left: 10px;padding-bottom: 10px;"><b>Location:</b> {{val['location']}}</div>
+    {% if 'salary' in val %}
+    <div style="padding-left: 10px;padding-bottom: 10px;"><b>Salary : </b> {{val['salary']}}</div>
+    {%endif%}
+    </div>
+    <button type="button" class="btn btn-primary btn-sm col-3">Apply</button>
+ </div>
